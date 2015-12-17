@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SOExtensions.xcscheme</key>
+		<key>SOExtensions OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SOExtensions iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SOExtensions tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SOExtensions watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,21 @@
 			<true/>
 		</dict>
 		<key>91B6860A1C2303AD00FA939C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91B686211C2304A600FA939C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91B686301C23058B00FA939C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91B6863D1C2305A100FA939C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

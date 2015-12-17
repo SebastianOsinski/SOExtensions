@@ -10,6 +10,16 @@
 		91B686051C2303AD00FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B6860C1C2303AD00FA939C /* SOExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B686011C2303AD00FA939C /* SOExtensions.framework */; };
 		91B686111C2303AD00FA939C /* SOExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B686101C2303AD00FA939C /* SOExtensionsTests.swift */; };
+		91B6861C1C23040600FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
+		91B686251C2304A600FA939C /* SOExtensions OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686241C2304A600FA939C /* SOExtensions OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B6862A1C2304B900FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
+		91B6862B1C2304C300FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B686341C23058B00FA939C /* SOExtensions watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686331C23058B00FA939C /* SOExtensions watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B686411C2305A100FA939C /* SOExtensions tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686401C2305A100FA939C /* SOExtensions tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B686461C2305B700FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
+		91B686471C2305B700FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
+		91B686481C23061600FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B686491C23061600FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		91B6860B1C2303AD00FA939C /* SOExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B686101C2303AD00FA939C /* SOExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOExtensionsTests.swift; sourceTree = "<group>"; };
 		91B686121C2303AD00FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B6861B1C23040600FA939C /* Array+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+extensions.swift"; sourceTree = "<group>"; };
+		91B686221C2304A600FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B686241C2304A600FA939C /* SOExtensions OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions OSX.h"; sourceTree = "<group>"; };
+		91B686261C2304A600FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B686311C23058B00FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B686331C23058B00FA939C /* SOExtensions watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions watchOS.h"; sourceTree = "<group>"; };
+		91B686351C23058B00FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B6863E1C2305A100FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B686401C2305A100FA939C /* SOExtensions tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions tvOS.h"; sourceTree = "<group>"; };
+		91B686421C2305A100FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91B6861E1C2304A600FA939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6862D1C23058B00FA939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6863A1C2305A100FA939C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +96,9 @@
 			children = (
 				91B686031C2303AD00FA939C /* SOExtensions */,
 				91B6860F1C2303AD00FA939C /* SOExtensionsTests */,
+				91B686231C2304A600FA939C /* SOExtensions OSX */,
+				91B686321C23058B00FA939C /* SOExtensions watchOS */,
+				91B6863F1C2305A100FA939C /* SOExtensions tvOS */,
 				91B686021C2303AD00FA939C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +108,9 @@
 			children = (
 				91B686011C2303AD00FA939C /* SOExtensions.framework */,
 				91B6860B1C2303AD00FA939C /* SOExtensionsTests.xctest */,
+				91B686221C2304A600FA939C /* SOExtensions.framework */,
+				91B686311C23058B00FA939C /* SOExtensions.framework */,
+				91B6863E1C2305A100FA939C /* SOExtensions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +120,7 @@
 			children = (
 				91B686041C2303AD00FA939C /* SOExtensions.h */,
 				91B686061C2303AD00FA939C /* Info.plist */,
+				91B6861B1C23040600FA939C /* Array+extensions.swift */,
 			);
 			path = SOExtensions;
 			sourceTree = "<group>";
@@ -86,6 +134,33 @@
 			path = SOExtensionsTests;
 			sourceTree = "<group>";
 		};
+		91B686231C2304A600FA939C /* SOExtensions OSX */ = {
+			isa = PBXGroup;
+			children = (
+				91B686241C2304A600FA939C /* SOExtensions OSX.h */,
+				91B686261C2304A600FA939C /* Info.plist */,
+			);
+			path = "SOExtensions OSX";
+			sourceTree = "<group>";
+		};
+		91B686321C23058B00FA939C /* SOExtensions watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				91B686331C23058B00FA939C /* SOExtensions watchOS.h */,
+				91B686351C23058B00FA939C /* Info.plist */,
+			);
+			path = "SOExtensions watchOS";
+			sourceTree = "<group>";
+		};
+		91B6863F1C2305A100FA939C /* SOExtensions tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				91B686401C2305A100FA939C /* SOExtensions tvOS.h */,
+				91B686421C2305A100FA939C /* Info.plist */,
+			);
+			path = "SOExtensions tvOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,12 +172,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91B6861F1C2304A600FA939C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6862B1C2304C300FA939C /* SOExtensions.h in Headers */,
+				91B686251C2304A600FA939C /* SOExtensions OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6862E1C23058B00FA939C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B686481C23061600FA939C /* SOExtensions.h in Headers */,
+				91B686341C23058B00FA939C /* SOExtensions watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6863B1C2305A100FA939C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B686491C23061600FA939C /* SOExtensions.h in Headers */,
+				91B686411C2305A100FA939C /* SOExtensions tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		91B686001C2303AD00FA939C /* SOExtensions */ = {
+		91B686001C2303AD00FA939C /* SOExtensions iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B686151C2303AD00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions" */;
+			buildConfigurationList = 91B686151C2303AD00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions iOS" */;
 			buildPhases = (
 				91B685FC1C2303AD00FA939C /* Sources */,
 				91B685FD1C2303AD00FA939C /* Frameworks */,
@@ -113,7 +215,7 @@
 			);
 			dependencies = (
 			);
-			name = SOExtensions;
+			name = "SOExtensions iOS";
 			productName = SOExtensions;
 			productReference = 91B686011C2303AD00FA939C /* SOExtensions.framework */;
 			productType = "com.apple.product-type.framework";
@@ -136,6 +238,60 @@
 			productReference = 91B6860B1C2303AD00FA939C /* SOExtensionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		91B686211C2304A600FA939C /* SOExtensions OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B686271C2304A600FA939C /* Build configuration list for PBXNativeTarget "SOExtensions OSX" */;
+			buildPhases = (
+				91B6861D1C2304A600FA939C /* Sources */,
+				91B6861E1C2304A600FA939C /* Frameworks */,
+				91B6861F1C2304A600FA939C /* Headers */,
+				91B686201C2304A600FA939C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOExtensions OSX";
+			productName = "SOExtensions OSX";
+			productReference = 91B686221C2304A600FA939C /* SOExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B686301C23058B00FA939C /* SOExtensions watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B686361C23058B00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions watchOS" */;
+			buildPhases = (
+				91B6862C1C23058B00FA939C /* Sources */,
+				91B6862D1C23058B00FA939C /* Frameworks */,
+				91B6862E1C23058B00FA939C /* Headers */,
+				91B6862F1C23058B00FA939C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOExtensions watchOS";
+			productName = "SOExtensions watchOS";
+			productReference = 91B686311C23058B00FA939C /* SOExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B6863D1C2305A100FA939C /* SOExtensions tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B686431C2305A100FA939C /* Build configuration list for PBXNativeTarget "SOExtensions tvOS" */;
+			buildPhases = (
+				91B686391C2305A100FA939C /* Sources */,
+				91B6863A1C2305A100FA939C /* Frameworks */,
+				91B6863B1C2305A100FA939C /* Headers */,
+				91B6863C1C2305A100FA939C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOExtensions tvOS";
+			productName = "SOExtensions tvOS";
+			productReference = 91B6863E1C2305A100FA939C /* SOExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +310,17 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = GJF586P7E7;
 					};
+					91B686211C2304A600FA939C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					91B686301C23058B00FA939C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GJF586P7E7;
+					};
+					91B6863D1C2305A100FA939C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GJF586P7E7;
+					};
 				};
 			};
 			buildConfigurationList = 91B685FB1C2303AD00FA939C /* Build configuration list for PBXProject "SOExtensions" */;
@@ -168,7 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91B686001C2303AD00FA939C /* SOExtensions */,
+				91B686001C2303AD00FA939C /* SOExtensions iOS */,
+				91B686211C2304A600FA939C /* SOExtensions OSX */,
+				91B686301C23058B00FA939C /* SOExtensions watchOS */,
+				91B6863D1C2305A100FA939C /* SOExtensions tvOS */,
 				91B6860A1C2303AD00FA939C /* SOExtensionsTests */,
 			);
 		};
@@ -189,6 +359,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91B686201C2304A600FA939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6862F1C23058B00FA939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6863C1C2305A100FA939C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B6861C1C23040600FA939C /* Array+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,12 +399,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91B6861D1C2304A600FA939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6862A1C2304B900FA939C /* Array+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B6862C1C23058B00FA939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B686461C2305B700FA939C /* Array+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B686391C2305A100FA939C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B686471C2305B700FA939C /* Array+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		91B6860E1C2303AD00FA939C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91B686001C2303AD00FA939C /* SOExtensions */;
+			target = 91B686001C2303AD00FA939C /* SOExtensions iOS */;
 			targetProxy = 91B6860D1C2303AD00FA939C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -310,6 +526,7 @@
 		91B686161C2303AD00FA939C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,15 +534,17 @@
 				INFOPLIST_FILE = SOExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.osinski.SOExtensions;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-iOS";
+				PRODUCT_NAME = SOExtensions;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		91B686171C2303AD00FA939C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -333,8 +552,8 @@
 				INFOPLIST_FILE = SOExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.osinski.SOExtensions;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-iOS";
+				PRODUCT_NAME = SOExtensions;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -359,6 +578,126 @@
 			};
 			name = Release;
 		};
+		91B686281C2304A600FA939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SOExtensions OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-OSX";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91B686291C2304A600FA939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SOExtensions OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-OSX";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		91B686371C23058B00FA939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SOExtensions watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-watchOS";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		91B686381C23058B00FA939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SOExtensions watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-watchOS";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		91B686441C2305A100FA939C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SOExtensions tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-tvOS";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		91B686451C2305A100FA939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SOExtensions tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.osinski.SOExtensions-tvOS";
+				PRODUCT_NAME = SOExtensions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -371,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B686151C2303AD00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions" */ = {
+		91B686151C2303AD00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91B686161C2303AD00FA939C /* Debug */,
@@ -384,6 +723,30 @@
 			buildConfigurations = (
 				91B686191C2303AD00FA939C /* Debug */,
 				91B6861A1C2303AD00FA939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91B686271C2304A600FA939C /* Build configuration list for PBXNativeTarget "SOExtensions OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B686281C2304A600FA939C /* Debug */,
+				91B686291C2304A600FA939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91B686361C23058B00FA939C /* Build configuration list for PBXNativeTarget "SOExtensions watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B686371C23058B00FA939C /* Debug */,
+				91B686381C23058B00FA939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91B686431C2305A100FA939C /* Build configuration list for PBXNativeTarget "SOExtensions tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B686441C2305A100FA939C /* Debug */,
+				91B686451C2305A100FA939C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

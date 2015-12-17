@@ -6,8 +6,6 @@
 //  Copyright © 2015 Sebastian Osiński. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for SOExtensions.
 FOUNDATION_EXPORT double SOExtensionsVersionNumber;
 
