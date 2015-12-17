@@ -11,11 +11,8 @@
 		91B6860C1C2303AD00FA939C /* SOExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B686011C2303AD00FA939C /* SOExtensions.framework */; };
 		91B686111C2303AD00FA939C /* SOExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B686101C2303AD00FA939C /* SOExtensionsTests.swift */; };
 		91B6861C1C23040600FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
-		91B686251C2304A600FA939C /* SOExtensions OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686241C2304A600FA939C /* SOExtensions OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B6862A1C2304B900FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
 		91B6862B1C2304C300FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B686341C23058B00FA939C /* SOExtensions watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686331C23058B00FA939C /* SOExtensions watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B686411C2305A100FA939C /* SOExtensions tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686401C2305A100FA939C /* SOExtensions tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B686461C2305B700FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
 		91B686471C2305B700FA939C /* Array+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6861B1C23040600FA939C /* Array+extensions.swift */; };
 		91B686481C23061600FA939C /* SOExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B686041C2303AD00FA939C /* SOExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,14 +38,8 @@
 		91B686121C2303AD00FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B6861B1C23040600FA939C /* Array+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+extensions.swift"; sourceTree = "<group>"; };
 		91B686221C2304A600FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B686241C2304A600FA939C /* SOExtensions OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions OSX.h"; sourceTree = "<group>"; };
-		91B686261C2304A600FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B686311C23058B00FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B686331C23058B00FA939C /* SOExtensions watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions watchOS.h"; sourceTree = "<group>"; };
-		91B686351C23058B00FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B6863E1C2305A100FA939C /* SOExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B686401C2305A100FA939C /* SOExtensions tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOExtensions tvOS.h"; sourceTree = "<group>"; };
-		91B686421C2305A100FA939C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +87,6 @@
 			children = (
 				91B686031C2303AD00FA939C /* SOExtensions */,
 				91B6860F1C2303AD00FA939C /* SOExtensionsTests */,
-				91B686231C2304A600FA939C /* SOExtensions OSX */,
-				91B686321C23058B00FA939C /* SOExtensions watchOS */,
-				91B6863F1C2305A100FA939C /* SOExtensions tvOS */,
 				91B686021C2303AD00FA939C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,33 +122,6 @@
 			path = SOExtensionsTests;
 			sourceTree = "<group>";
 		};
-		91B686231C2304A600FA939C /* SOExtensions OSX */ = {
-			isa = PBXGroup;
-			children = (
-				91B686241C2304A600FA939C /* SOExtensions OSX.h */,
-				91B686261C2304A600FA939C /* Info.plist */,
-			);
-			path = "SOExtensions OSX";
-			sourceTree = "<group>";
-		};
-		91B686321C23058B00FA939C /* SOExtensions watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				91B686331C23058B00FA939C /* SOExtensions watchOS.h */,
-				91B686351C23058B00FA939C /* Info.plist */,
-			);
-			path = "SOExtensions watchOS";
-			sourceTree = "<group>";
-		};
-		91B6863F1C2305A100FA939C /* SOExtensions tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				91B686401C2305A100FA939C /* SOExtensions tvOS.h */,
-				91B686421C2305A100FA939C /* Info.plist */,
-			);
-			path = "SOExtensions tvOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -177,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B6862B1C2304C300FA939C /* SOExtensions.h in Headers */,
-				91B686251C2304A600FA939C /* SOExtensions OSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B686481C23061600FA939C /* SOExtensions.h in Headers */,
-				91B686341C23058B00FA939C /* SOExtensions watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B686491C23061600FA939C /* SOExtensions.h in Headers */,
-				91B686411C2305A100FA939C /* SOExtensions tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

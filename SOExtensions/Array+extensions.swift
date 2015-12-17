@@ -1,6 +1,6 @@
 //
 //  Array+extensions.swift
-//  Pods
+//  SOExtensions
 //
 //  Created by Sebastian Osiński on 17.12.2015.
 //
