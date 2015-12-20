@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SOExtensions.svg?style=flat)](http://cocoapods.org/pods/SOExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/SOExtensions.svg?style=flat)](http://cocoapods.org/pods/SOExtensions)
 
-SOExtensions is a collection of convenient and useful extensions for Swift classes and structs. This is not 'full-time' project. New extensions will be added with time when the need for them will arise in my other projects.
+SOExtensions is a collection of convenient and useful extensions for Swift classes and structs. This is not a 'full-time' project. New extensions will be added in time if and when the need for them arises in my other projects.
 
 ## Installation
 
